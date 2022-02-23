@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "standard-with-typescript"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "import/order": "error",
+    "react/prop-types": 0,
+    "no-console": "warn",
+    "no-undef": 0,
+    "no-unused-vars": 0,
+    "no-redeclare": 0,
+    "no-underscore-dangle": ["off"],
+    "import/prefer-default-export": ["off"],
+    "import/no-unresolved": ["error", { "ignore": ["^@", "^~", "^."] }],
+    "no-empty-function": ["error", { "allow": ["arrowFunctions"] }],
+    "@typescript-eslint/no-empty-function": [
+      "error",
+      { "allow": ["arrowFunctions"] }
+    ],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "space-before-function-paren": "off",
+    "@typescript-eslint/no-use-before-define": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/indent": ["warn", 2],
+    "indent": "off"
+  }
+}
