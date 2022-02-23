@@ -1,8 +1,17 @@
 import React from 'react'
-import { View } from 'react-native'
+import {
+  SafeAreaProvider,
+  initialWindowMetrics
+} from 'react-native-safe-area-context'
+
+import { Router } from './routes'
 
 export const App = () => {
-  return <View />
+  return (
+    <SafeAreaProvider initialMetrics={initialWindowMetrics}>
+      <Router />
+    </SafeAreaProvider>
+  )
 }
 
 App.displayName = 'App'
