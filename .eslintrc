@@ -37,6 +37,7 @@
     ],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
     "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "space-before-function-paren": "off",

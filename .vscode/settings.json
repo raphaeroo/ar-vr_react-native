@@ -1,4 +1,7 @@
 {
   "javascript.suggestionActions.enabled": false,
   "java.configuration.updateBuildConfiguration": "interactive",
+  "cSpell.words": [
+    "Viro"
+  ],
 }

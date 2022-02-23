@@ -1,3 +1,5 @@
 import { HomeScreen } from './Home'
+import { ArSceneScreen } from './ArScene'
+import { ArObjectSceneScreen } from './ArObjectScene'
 
-export { HomeScreen }
+export { HomeScreen, ArSceneScreen, ArObjectSceneScreen }
